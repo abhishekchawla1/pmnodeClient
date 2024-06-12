@@ -3,7 +3,7 @@
 // dependencies
 const http = require("http");
 const io = require("socket.io-client");
-const dotenv = require('dotenv');
+const dotenv = require("dotenv");
 const macAddres = require("./services/networkService/getNetworkData.js");
 const producedDataOfCpu = require("./services/cpuService/cpuData.js");
 dotenv.config();
@@ -40,3 +40,4 @@ const server = http.createServer((req, res) => {
 server.listen(port, () => {
   console.log(`Client is listening on port on some port..`);
 });
+// this is console.log statement
