@@ -13,7 +13,7 @@ const options = {
   },
 };
 
-const socket = io("https://pmserver-wfdf.onrender.com", options);
+const socket = io("https://pmserver-98nl.onrender.com", options);
 socket.on("connect", () => {
   const prefInterval = setInterval(() => {
     producedDataOfCpu()
